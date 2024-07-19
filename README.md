@@ -22,5 +22,5 @@
 3. Перейдите в каталог с файлом `freezegen.py` с помощью команды:
    ```bash
    cd путь_к_файлу
-4. Пишите `freezegen.py` и **Enter** 
+4. Пишите `python freezegen.py` и **Enter** 
 5. Готово!
