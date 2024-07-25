@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инструкция по установке компонентов для FreezeGen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+            border-bottom: 5px solid #007bff;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            letter-spacing: 1px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .instruction {
+            background: #ffffff;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .instruction:hover {
+            box-shadow: 0 16px 32px rgba(0,0,0,0.3);
+            transform: translateY(-8px);
+        }
+        .instruction h2 {
+            color: #4facfe;
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        .instruction p {
+            margin: 0 0 15px;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .instruction img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #4facfe;
+            text-decoration: none;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #007bff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4facfe;
+            color: #fff;
+            border-top: 1px solid #ddd;
+            box-shadow: 0 -8px 16px rgba(0,0,0,0.2);
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #4facfe;
+            border-radius: 25px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #007bff;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Инструкция по установке компонентов для FreezeGen</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="instruction">
+            <h2>Шаг 1: Загрузка Python</h2>
+            <p>Перейдите на страницу загрузки Python и выберите версию Python 3.12.4.</p>
+            <p><a href="https://www.python.org/downloads/release/python-3124/" target="_blank" class="button">Скачать Python 3.12.4</a></p>
+            <div class="image-container">
+                <img src="https://www.python.org/static/img/python-logo.png" alt="Выбор версии Python">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 2: Запуск Python</h2>
+            <p>Запустите установочный файл Python, который вы скачали.</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/4NBHTgkh/photo-2024-07-20-17-47-36.jpg" alt="Запуск установщика Python">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 3: Настройки установки</h2>
+            <p>На экране установки выберите опцию "Add Python to PATH" и нажмите "Install Now".</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/gcKnvW0B/photo-2024-07-20-17-49-14.jpg" alt="Настройки установки Python">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 4: Завершение установки</h2>
+            <p>Подождите, пока Python установится. После завершения установки нажмите "Close".</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/138XhVrL/photo-2024-07-20-17-47-35.jpg" alt="Процесс установки Python">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 5: Открытие папки с программой</h2>
+            <p>Откройте папку, где установлена программа FreezeGen.</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/yYtBRQ0b/photo-2024-07-20-17-51-14.jpg" alt="Открыть папку">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 6: Запуск установочных скриптов</h2>
+            <p>В папке FreezeGen найдите файл <code>pip install.bat</code> и дважды щелкните по нему. Подождите, пока необходимые библиотеки будут загружены.</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/2jPrb9QX/photo-2024-07-20-17-51-45.jpg" alt="Запуск скриптов">
+            </div>
+        </div>
+
+        <div class="instruction">
+            <h2>Шаг 7: Запуск FreezeGen</h2>
+            <p>После завершения загрузки запустите <code>start.bat</code>, чтобы начать использование FreezeGen.</p>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/zBX46Knh/photo-2024-07-20-17-57-45.jpg" alt="Запуск Программы">
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+    </footer>
+</body>
+</html>
